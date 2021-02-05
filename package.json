@@ -1,0 +1,41 @@
+{
+  "name": "jwt-rest-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "SET NODE_ENV=development & nodemon app/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "^1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.3",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "~1.9.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^1.19.4",
+    "swagger-ui": "^3.36.2"
+  },
+  "description": "Node\r npm\r Express\r jsonwebtoken\r mongoose",
+  "main": "app.js",
+  "bin": {
+    "jwt-rest-api": "app.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatingHeartMS/TPOAPIBackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeatingHeartMS/TPOAPIBackEnd/issues"
+  },
+  "homepage": "https://github.com/BeatingHeartMS/TPOAPIBackEnd#readme"
+}
