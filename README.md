@@ -62,7 +62,7 @@ Now you can add the token to the request header.
 You will get list of users...
 
 Try to update users the http://localhost:3000/api/users endpoint, and the method to PUT with x-www-form-url-encoded.
-Now, add some values.Update name is 'Abdur' , email is 'mohdabdur786@gmail.com' and his password is 'Wow@123' 
+Now, add some values.Update name is 'user1' , email is 'tpapiuaede@gmail.com' and his password is '123456' 
 
 Delete some users hit http://localhost:3000/api/users/(_id) endpoint with the method DELETE.
 
