@@ -53,7 +53,7 @@ Open up your REST API testing tool of choice, I use Postman or Insomnia, but any
 Go back to your terminal and run node server.js. If it is running, stop it, save all changes to you files, and run node server.js again.
 
 Open up Postman and hit the register endpoint (http://localhost:3000/api/users/registration). Make sure to pick the POST method and x-www-form-url-encoded.
-Now, add some values. My user’s name is 'Mohammad' , email is 'mohdabdur786@gmail.com' and his password is 'Wow@123' 
+Now, add some values. My user’s name is 'user' , email is 'tpapiuaede@gmail.com' and his password is '123456' 
 
 See the response? The token is a long jumbled string. 
 To try out the http://localhost:3000/api/users endpoint, first copy the token. Change the URL to http://localhost:3000/api/users , and the method to GET.
